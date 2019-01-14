@@ -1,0 +1,43 @@
+body {
+  width: 90%;
+  margin: auto;
+  color: #0b032d;
+  font-family: 'Bree Serif', serif;
+  font-size: 20px;
+  background: -webkit-radial-gradient(rgb(39, 255, 253), rgb(135, 35, 163));
+  background: radial-gradient(rgb(39, 255, 253), rgb(135, 35, 163));
+  background-image: url(tumblr_lriq1kbnuu1qze0z6o1_1280.jpg);
+  background-repeat: no-repeat;
+}
+
+p {
+  line-height: 1.8;
+}
+
+a {
+ text-decoration: none;
+}
+
+/* unvisited link */
+a:link {
+ color: #f67e7d;
+}
+
+/* visited link */
+a:visited {
+ color: #e61c5d;
+}
+
+/* mouse over link */
+a:hover {
+ color: #ffb997;
+}
+
+blockquote {
+  border-left: 6px solid #c82121;
+  background-color: #f4f3f3;
+  width: 50%;
+  margin: auto;
+  font-size: 160%;
+  padding: 80px 30px;
+}
