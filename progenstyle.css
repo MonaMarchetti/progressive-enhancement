@@ -10,7 +10,7 @@ body {
 }
 
 p {
-  line-height: 1.8;
+  line-height: 1.6;
 }
 
 a {
@@ -37,7 +37,7 @@ blockquote {
   margin: auto;
   font-size: 160%;
   font-style: italic;
-  background-color: #c5c5c5;
+  background-color: #dfdfdf;
   border-left: 3px solid #c40018;
   padding: 80px 30px;
 }
@@ -68,7 +68,7 @@ header em {
 
 table {
   table-layout: fixed;
-  width: 100%;
+  width: 40%;
 }
 
 table, th, td {
@@ -93,5 +93,38 @@ tr:nth-child(even) {
 }
 
 tr:nth-child(odd) {
-   background-color: #c5c5c5;
+   background-color: #dfdfdf;
+}
+
+li:first-of-type {
+  background-image: url("bien.png");
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 69.5%;
+}
+
+li:nth-of-type(2) {
+  background-image: url("mal.png");
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 68.4%;
+}
+
+li:nth-of-type(3) {
+  background-image: url("chat.png");
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 65.2%;
+}
+
+p:first-of-type {
+  font-weight: bold;
+}
+
+img:first-of-type {
+  float: right;
+  margin-left: 30px;
 }
