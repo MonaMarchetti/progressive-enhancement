@@ -1,13 +1,12 @@
 body {
-  width: 90%;
+  width: 75%;
   margin: auto;
   color: #0b032d;
   font-family: 'Bree Serif', serif;
   font-size: 20px;
-  background: -webkit-radial-gradient(rgb(39, 255, 253), rgb(135, 35, 163));
-  background: radial-gradient(rgb(39, 255, 253), rgb(135, 35, 163));
-  background-image: url(tumblr_lriq1kbnuu1qze0z6o1_1280.jpg);
-  background-repeat: no-repeat;
+  background: url("fond.jpg") no-repeat bottom right, -webkit-radial-gradient(rgb(245, 181, 255), rgb(212, 255, 232));
+  background: url("fond.jpg") no-repeat bottom right, radial-gradient(rgb(245, 181, 255), rgb(212, 255, 232));
+  background-size: cover;
 }
 
 p {
@@ -30,14 +29,14 @@ a:visited {
 
 /* mouse over link */
 a:hover {
- color: #ffb997;
+ color: #009f9d;
 }
 
 blockquote {
-  border-left: 6px solid #c82121;
-  background-color: #f4f3f3;
   width: 50%;
   margin: auto;
   font-size: 160%;
+  background-color: #f4f3f3;
+  border-left: 3px solid #c82121;
   padding: 80px 30px;
 }
